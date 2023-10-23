@@ -19,5 +19,10 @@ private void btnLimpar Click(ActionEvent event){
 // RBSomar.SetSelected(False)
 
 //arrumou mais alguma coisa no codigo(Ver video aula)
-//
+//FOTOOO
+//ToString toda classe possui, na classe object. Ele mencionou qu "Toda... é filha do object"
+//Quando eu clicar no combobox vai aparecer varios endereço, então para que fique mais visivel organizado para o usarios, atraves reprogramar o ToString
+
+//projeto novo
+
 '
