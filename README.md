@@ -92,7 +92,32 @@ cbProdutp.setItems(produto);
 
 //Dia 06/11
 //Copiar nosso Teamplate para o nome de Banco de dados(ira gerar dois, e renomeamos o segundo)
-//Pegar o arquivo no Teams, dar Ctrl + C e vai no nosso projeto no NeatBeans, <default package> e cola nosso arquivo 
-// 
+//Pegar o arquivo no Teams ou Siga, dar Ctrl + C e vai no nosso projeto no NeatBeans, Sources Package e cola nosso arquivo. Ira criar <default package> com nosso arquivo BD
+//Agora ir para o XAMPP, dar Start em apache e mysql(Caso de erro, vai no workbeanch e colocar nos comandos usuario e senha root)
+// Mencionou sobre editar " Create database Loja_2 " e " use Loja_2 " para criar e usar outra banco de dados 
+// Copiar todos os dados da informação do ARQUIVO BD e colocar no XAMPP ou outra ferramenta
+//Se o XAMPP der erro no phpadin, vai no shell e adiconar mysql -u root e colocar. Colar o codigo ali 
+//Criar novas Java Package, Persistencia, DAO e model. O banco ira ficar no persistencia
+//Agora essas variaveis não precisam de instancia, e objeto consegue acessar direto
+//Se escrever so Connection, devemos tomar cuidado para não fazer lçigação com outros pacotes. Soemnte no Java.sql;Connection
+//O java não ocnsegue falar diretamente com o mysql. Cada fabricante tem um driver(temos que pegar na internte, atrves do Maven)
+// Ir para o Maven repositori --> jdbc MYSQL --> duas versoes do java --> colocar o codigo  n oPorject file e pom em <depndency> --> salva --> vai ter um dependneica  com mysql-connector(não precisamos preocupar com os pacotes e drivers)
+//Abrir o principal, depois de lauch 
+//try {
+//system.out.println("Conectando...");
+//Banco.conectar();
+//system.out.println("Conectado...");
+//Banco.desconectar();
+//system.out.println("Desconectando...");
+//}
+//catch(SQLException ex){
+//system.out.println("Erro: " + ex.getMessage());
+//}
+//}
+//Agorar testar se funciona
+
+
+
+
 
 
