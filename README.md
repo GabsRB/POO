@@ -90,3 +90,9 @@ cbProdutp.setItems(produto);
 //}
 //}
 
+//Dia 06/11
+//Copiar nosso Teamplate para o nome de Banco de dados(ira gerar dois, e renomeamos o segundo)
+//Pegar o arquivo no Teams, dar Ctrl + C e vai no nosso projeto no NeatBeans, <default package> e cola nosso arquivo 
+// 
+
+
