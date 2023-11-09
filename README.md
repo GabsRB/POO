@@ -116,7 +116,13 @@ cbProdutp.setItems(produto);
 //}
 //Agorar testar se funciona
 
+// https://www.youtube.com/watch?app=desktop&v=or8yeT8OOcg
+//https://www.youtube.com/watch?app=desktop&v=CrQ3Fr306pM
+// https://www.google.com/search?q=JAVAFX+BOOKING+SYSTEM+fARMACIA&tbm=isch&ved=2ahUKEwj-6IaSjreCAxVLipUCHSd8CaIQ2-cCegQIABAA&oq=JAVAFX+BOOKING+SYSTEM+fARMACIA&gs_lcp=CgNpbWcQA1CzEljXPWDYPmgAcAB4AIABeogBmxGSAQQ1LjE2mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=TupMZf6JNMuU1sQPp_ilkAo&bih=911&biw=1903&rlz=1C1ISCS_pt-PTBR969BR969&hl=pt-BR#imgrc=dlMhbBjkbPMiKM&imgdii=9UVbPZeCHu4mFM
+// https://www.google.com/search?q=JAVAFX+BOOKING+SYSTEM+fARMACIA&tbm=isch&ved=2ahUKEwj-6IaSjreCAxVLipUCHSd8CaIQ2-cCegQIABAA&oq=JAVAFX+BOOKING+SYSTEM+fARMACIA&gs_lcp=CgNpbWcQA1CzEljXPWDYPmgAcAB4AIABeogBmxGSAQQ1LjE2mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=TupMZf6JNMuU1sQPp_ilkAo&bih=911&biw=1903&rlz=1C1ISCS_pt-PTBR969BR969&hl=pt-BR#imgrc=9UVbPZeCHu4mFM&imgdii=1NRzuJaaUyFj1M
+//https://www.google.com/imgres?imgurl=https%3A%2F%2Ffiverr-res.cloudinary.com%2Fimages%2Ft_main1%2Cq_auto%2Cf_auto%2Cq_auto%2Cf_auto%2Fgigs%2F217552574%2Foriginal%2F03ed5a3a7893f7471df7149d21163a03c879c398%2Fdo-your-java-javafx-project-and-gui-applications.png&tbnid=zWXbFHTTRHwn3M&vet=10CAwQxiAoBWoXChMI2OjCwo-3ggMVAAAAAB0AAAAAEAY..i&imgrefurl=https%3A%2F%2Fwww.fiverr.com%2Filyasjaai%2Fdo-your-java-javafx-project-and-gui-applications&docid=zGA-IWbcPLipJM&w=680&h=427&itg=1&q=JAVAFX%20BOOKING%20SYSTEM%20fARMACIA&hl=pt-BR&ved=0CAwQxiAoBWoXChMI2OjCwo-3ggMVAAAAAB0AAAAAEAY
 
+//CRIAR OS daos do projeto. Chave IDno tabela do Bd
 
 
 
