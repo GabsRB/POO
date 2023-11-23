@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="247.0" prefWidth="500.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.fatec.Controller.Calculadora_ViewController">
+    <stylesheets>
+        <URL value="@/br/com/fatec/styles/calculadora_view.css" />
+    </stylesheets>
+   <children>
+      <GridPane layoutX="14.0" layoutY="14.0" prefHeight="130.0" prefWidth="389.0">
+        <columnConstraints>
+          <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" maxWidth="266.0" minWidth="10.0" prefWidth="222.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="189.0" minWidth="10.0" prefWidth="167.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label fx:id="lblNumero1" text="Número 1" />
+            <Label fx:id="lblNumero2" text="Número 2" GridPane.rowIndex="1" />
+            <Label fx:id="lblResultado" text="Resultado" GridPane.rowIndex="2" />
+            <TextField fx:id="txtNumero1" maxWidth="-Infinity" prefHeight="31.0" prefWidth="103.0" GridPane.columnIndex="1" />
+            <TextField fx:id="txtNumero2" maxWidth="-Infinity" prefHeight="31.0" prefWidth="103.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField fx:id="txtResultado" maxWidth="-Infinity" prefHeight="31.0" prefWidth="103.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+         </children>
+      </GridPane>
+      <HBox layoutX="22.0" layoutY="144.0" prefHeight="21.0" prefWidth="464.0" spacing="20.0">
+         <children>
+            <RadioButton fx:id="rbSomar" mnemonicParsing="false" prefWidth="100.0" text="Somar">
+               <toggleGroup>
+                  <ToggleGroup fx:id="tgOperacao" />
+               </toggleGroup></RadioButton>
+            <RadioButton fx:id="rbSubtrair" mnemonicParsing="false" prefWidth="100.0" text="Subtrair" toggleGroup="$tgOperacao" />
+            <RadioButton fx:id="rbMultiplicar" mnemonicParsing="false" prefWidth="100.0" text="Multiplicar" toggleGroup="$tgOperacao" />
+            <RadioButton fx:id="rbDividir" mnemonicParsing="false" prefHeight="21.0" prefWidth="110.0" text="Dividir" toggleGroup="$tgOperacao" />
+         </children>
+      </HBox>
+      <HBox layoutX="98.0" layoutY="192.0" prefHeight="41.0" prefWidth="266.0">
+         <children>
+            <HBox prefHeight="41.0" prefWidth="250.0" spacing="10.0">
+               <children>
+                  <Button fx:id="btnCalcular" mnemonicParsing="false" onAction="#btnCalcular_Click" prefWidth="150.0" text="Calcular" />
+                  <Button fx:id="btnLimpar" mnemonicParsing="false" onAction="#btnLimpar_Click" prefWidth="150.0" text="Limpar" />
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </HBox>
+         </children></HBox>
+   </children>
+</AnchorPane>
